@@ -1,0 +1,17 @@
+name,age,gender,edu,department,landline,bandcard,idcard,addman,user_num,pwd,nation,marriage,role,faveriate,tel,address,email,添加员工——正常输入,成功
+name,age,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,addman,user_num,pwd,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,添加员工——只输入必填项,成功
+IGNORE,IGNORE,gender,edu,department,landline,bandcard,idcard,IGNORE,IGNORE,IGNORE,nation,marriage,role,faveriate,tel,address,email,添加员工——不填写必填项,姓名
+name,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,addman,user_num,pwd,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,添加员工——不填写年龄,年龄
+name,age,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,user_num,pwd,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,添加员工——不填写添加人,添加人
+name,age,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,addman,IGNORE,pwd,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,添加员工——不填写账号,账号
+name,age,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,addman,user_num,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,IGNORE,添加员工——不填写密码,密码
+name,age,gender,edu,department,12345,bandcard,idcard,addman,user_num,pwd,nation,marriage,role,faveriate,tel,address,email,添加员工——输入错误位数的座机号码,座机号
+name,age,gender,edu,department,linenumber123,bandcard,idcard,addman,user_num,pwd,nation,marriage,role,faveriate,tel,address,email,添加员工——输入错误格式的座机号码,座机号
+name,age,gender,edu,department,landline,666666,idcard,addman,user_num,pwd,nation,marriage,role,faveriate,tel,address,email,添加员工——输入错误位数的工资卡号,工资卡号
+name,age,gender,edu,department,landline,@#%&*,idcard,addman,user_num,pwd,nation,marriage,role,faveriate,tel,address,email,添加员工——输入错误类型的工资卡号,工资卡号
+name,age,gender,edu,department,landline,bandcard,12345678912345,addman,user_num,pwd,nation,marriage,role,faveriate,tel,address,email,添加员工——输入错误位数14位的身份证,身份证号
+name,age,gender,edu,department,landline,bandcard,aaaaa444444,addman,user_num,pwd,nation,marriage,role,faveriate,tel,address,email,添加员工——输入错误类型的身份证,身份证号
+name,age,gender,edu,department,landline,bandcard,idcard,addman,user_num,pwd,nation,marriage,role,faveriate,123456789,address,email,添加员工——输入错误位数的手机号,手机号
+name,age,gender,edu,department,landline,bandcard,idcard,addman,user_num,pwd,nation,marriage,role,faveriate,teal@@@,address,email,添加员工——输入错误类型的手机号,手机号
+name,age,gender,edu,department,landline,bandcard,idcard,addman,user_num,pwd,nation,marriage,role,faveriate,tel,address,123456789,添加员工——输入错误格式的email,Email
+
