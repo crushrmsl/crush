@@ -4,8 +4,8 @@ import unittest
 from HTMLTestRunner import HTMLTestRunner
 import os
 
-dir = './'
-dis = unittest.defaultTestLoader.discover(dir,pattern='CRM添加员工.py')
+# dir = '/'
+dis = unittest.defaultTestLoader.discover(r'D:\Python\pythonproject\crmTestSuite1',pattern='CRM添加员工.py')
 # runner = unittest.TextTestRunner()
 # runner.run(dis)
 # 我们要新建一个用于保存我们测试结果的文件，html
